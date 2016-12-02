@@ -1,4 +1,5 @@
-//wtffff
+//secondary butt counter
+
 
 var btnX = 20;
 var upY = 100;
@@ -7,6 +8,8 @@ var btnSize = 40;
 var fontX = 180;
 var fontY = 215;
 var statY = 90;
+
+var butts = 0;
 
 fill(0, 0, 0);
 textSize(20);
@@ -46,7 +49,8 @@ mouseClicked = function() {
         fill(0, 0, 0);
         textSize(50);
         text(j, fontX, fontY);//numbers
-        println("uh");
+        println("uh"+butts);
+        butts++;
         }
     }
 };
